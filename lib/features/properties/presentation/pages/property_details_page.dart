@@ -71,13 +71,16 @@ class PropertyDetailsPage extends GetView<PropertyDetailsController> {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        Text(
-                          '${property.pricePerYear.toInt()} ${'sar'.tr} ${'per_year'.tr}',
-                          style: AppTypography.displayMedium.copyWith(
-                            color: AppColors.primary,
-                            fontWeight: FontWeight.w800,
+                        Expanded(
+                          child: Text(
+                            '${property.pricePerYear.toInt()} ${'sar'.tr} ${'per_year'.tr}',
+                            style: AppTypography.displayMedium.copyWith(
+                              color: AppColors.primary,
+                              fontWeight: FontWeight.w800,
+                            ),
                           ),
                         ),
+                        const SizedBox(width: 8),
                         Container(
                           padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
                           decoration: BoxDecoration(

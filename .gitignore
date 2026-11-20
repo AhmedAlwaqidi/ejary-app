@@ -47,7 +47,10 @@ app.*.map.json
 # Widget Preview related
 .widget_preview/
 
+# Ignore non-markdown artifacts in IMPLEMENTATION_PLANS, but track essential documentation
 IMPLEMENTATION_PLANS/*
+!IMPLEMENTATION_PLANS/*.md
+
 
 # Graphify cache
 graphify-out/cache/

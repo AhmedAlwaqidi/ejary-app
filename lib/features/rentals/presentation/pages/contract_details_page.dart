@@ -38,10 +38,13 @@ class ContractDetailsPage extends GetView<ContractDetailsController> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text(
-                        langCode == 'ar' ? contract.propertyTitleAr : contract.propertyTitleEn,
-                        style: AppTypography.titleMedium,
+                      Expanded(
+                        child: Text(
+                          langCode == 'ar' ? contract.propertyTitleAr : contract.propertyTitleEn,
+                          style: AppTypography.titleMedium,
+                        ),
                       ),
+                      const SizedBox(width: 8),
                       Container(
                         padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                         decoration: BoxDecoration(

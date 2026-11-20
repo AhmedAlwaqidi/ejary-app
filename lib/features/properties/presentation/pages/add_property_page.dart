@@ -31,7 +31,7 @@ class AddPropertyPage extends GetView<AddPropertyController> {
               const SizedBox(height: 16),
 
               // Category Selector Dropdown
-              Text('select_role'.tr, style: AppTypography.labelLarge),
+              Text('category'.tr, style: AppTypography.labelLarge),
               const SizedBox(height: 8),
               Obx(
                 () => DropdownButtonFormField<String>(

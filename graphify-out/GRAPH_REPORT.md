@@ -1,7 +1,7 @@
 # Graph Report - ejary_app  (2026-11-20)
 
 ## Corpus Check
-- 540 files · ~300,021 words
+- 540 files · ~300,039 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 53 file(s) not represented in the graph (top: .xcconfig 8, (none) 7, .xml 7)
 
@@ -11,7 +11,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `3c19c2b9`
+- Built from commit: `f9743550`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -474,14 +474,14 @@
 ## Surprising Connections (you probably didn't know these)
 - `MEDIUM — Best Practices` --references--> `validate()`  [INFERRED]
   .agents/agents/django-reviewer.md → .agents/skills/caveman-compress/scripts/validate.py
-- `MockStorageService` --inherits--> `StorageService`  [EXTRACTED]
-  test/helpers/mock_storage_service.dart → lib/core/services/storage_service.dart
 - `TestParseTrace` --uses--> `ObservationEvent`  [INFERRED]
   .agents/skills/skill-comply/tests/test_parser.py → .agents/skills/skill-comply/scripts/parser.py
 - `TestGradeCompliant` --uses--> `ComplianceResult`  [INFERRED]
   .agents/skills/skill-comply/tests/test_grader.py → .agents/skills/skill-comply/scripts/grader.py
 - `grade()` --uses--> `ComplianceSpec`  [INFERRED]
   .agents/skills/skill-comply/scripts/grader.py → .agents/skills/skill-comply/scripts/parser.py
+- `generate_spec()` --uses--> `ComplianceSpec`  [INFERRED]
+  .agents/skills/skill-comply/scripts/spec_generator.py → .agents/skills/skill-comply/scripts/parser.py
 
 ## Import Cycles
 - None detected.
@@ -2133,24 +2133,24 @@ Cohesion: 0.39
 Nodes (7): CacheFailure, Failure, message, NotFoundFailure, ServerFailure, toString, ValidationFailure
 
 ## Knowledge Gaps
-- **443 isolated node(s):** `build`, `dependencies`, `AppPages`, `initial`, `pages` (+438 more)
+- **443 isolated node(s):** `arTranslations`, `enTranslations`, `build`, `build`, `_buildSpecTile` (+438 more)
   These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 4136 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **44 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `PropertyRepository` connect `add_property_controller.dart` to `initial_binding.dart`, `explore_controller.dart`, `property_repository.dart`?**
-  _High betweenness centrality (0.004) - this node is a cross-community bridge._
-- **What connects `build`, `dependencies`, `AppPages` to the rest of the system?**
+- **Why does `RentalRepository` connect `rental_apply_controller.dart` to `initial_binding.dart`, `rental_usecases.dart`?**
+  _High betweenness centrality (0.005) - this node is a cross-community bridge._
+- **What connects `arTranslations`, `enTranslations`, `build` to the rest of the system?**
   _443 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `validate.py` be split into smaller, more focused modules?**
   _Cohesion score 0.05580693815987934 - nodes in this community are weakly interconnected._
-- **Why does `RentalRepository` connect `rental_apply_controller.dart` to `initial_binding.dart`, `rental_usecases.dart`?**
+- **Why does `_setup_sandbox()` connect `runner.py` to `compress.py`, `_FakeScenario`?**
   _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **Should `test_parse_instinct.py` be split into smaller, more focused modules?**
   _Cohesion score 0.06274509803921569 - nodes in this community are weakly interconnected._
-- **Why does `test_detect_project_from_env()` connect `detect_project` to `test_parse_instinct.py`?**
-  _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **Should `Git Workflow Patterns` be split into smaller, more focused modules?**
+  _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
+- **Should `Test-Driven Development Workflow` be split into smaller, more focused modules?**
   _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._

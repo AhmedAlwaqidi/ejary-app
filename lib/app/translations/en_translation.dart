@@ -47,6 +47,7 @@ const Map<String, String> enTranslations = {
   // Explore & Listings
   'search_hint': 'Search city, district, or property name...',
   'filter_all': 'All',
+  'category': 'Property Category',
   'cat_apartment': 'Apartments',
   'cat_villa': 'Villas',
   'cat_studio': 'Studios',

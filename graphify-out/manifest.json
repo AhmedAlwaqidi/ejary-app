@@ -450,8 +450,8 @@
     "semantic_hash": ""
   },
   "lib/main.dart": {
-    "mtime": 1795185140.4526963,
-    "seen": 1795185396.052043,
+    "mtime": 1795185488.666666,
+    "seen": 1795187207.4905422,
     "ast_hash": "923fc93b2d8055fdf31a6388b653d711",
     "semantic_hash": ""
   },
@@ -528,8 +528,8 @@
     "semantic_hash": ""
   },
   "test/widget_test.dart": {
-    "mtime": 1795185140.4693737,
-    "seen": 1795185396.0520778,
+    "mtime": 1795185488.696734,
+    "seen": 1795187207.4905794,
     "ast_hash": "0772d7abd5c9512bafb91041815684ea",
     "semantic_hash": ""
   },
@@ -3108,14 +3108,14 @@
     "semantic_hash": ""
   },
   "lib/app/app.dart": {
-    "mtime": 1795185140.368873,
-    "seen": 1795185396.051955,
+    "mtime": 1795185488.2412145,
+    "seen": 1795187207.4904332,
     "ast_hash": "6fffeef56f2eb8795ec99990c5530561",
     "semantic_hash": ""
   },
   "lib/app/bindings/initial_binding.dart": {
-    "mtime": 1795185140.368873,
-    "seen": 1795185396.051957,
+    "mtime": 1795185488.2412145,
+    "seen": 1795187207.4904358,
     "ast_hash": "c495f705c512db875f4626452b5a8db2",
     "semantic_hash": ""
   },
@@ -3138,15 +3138,15 @@
     "semantic_hash": ""
   },
   "lib/app/translations/ar_translation.dart": {
-    "mtime": 1795185140.368873,
-    "seen": 1795185396.051963,
-    "ast_hash": "cfc86432105b5bf559ef776dfaf326d8",
+    "mtime": 1795186015.712922,
+    "seen": 1795187207.4904437,
+    "ast_hash": "6f159e37eaa34143390798000670ecb0",
     "semantic_hash": ""
   },
   "lib/app/translations/en_translation.dart": {
-    "mtime": 1795185140.3788314,
-    "seen": 1795185396.051965,
-    "ast_hash": "ac11a3222af48995def32313546d11a4",
+    "mtime": 1795186025.928511,
+    "seen": 1795187207.4904456,
+    "ast_hash": "0512eb80824c6f96f3f159486cc7222c",
     "semantic_hash": ""
   },
   "lib/core/constants/app_colors.dart": {
@@ -3330,9 +3330,9 @@
     "semantic_hash": ""
   },
   "lib/features/properties/presentation/pages/add_property_page.dart": {
-    "mtime": 1795185140.424199,
-    "seen": 1795185396.0520124,
-    "ast_hash": "10991152a316a7b87a74c68c47ec7210",
+    "mtime": 1795186031.7426412,
+    "seen": 1795187207.490505,
+    "ast_hash": "30264b1b101120eba6846f393a396c6e",
     "semantic_hash": ""
   },
   "lib/features/properties/presentation/pages/explore_page.dart": {
@@ -3348,9 +3348,9 @@
     "semantic_hash": ""
   },
   "lib/features/properties/presentation/pages/property_details_page.dart": {
-    "mtime": 1795185140.424199,
-    "seen": 1795185396.052017,
-    "ast_hash": "5b2bbc6cabc3f2c8ed6ad7f781d8513a",
+    "mtime": 1795187118.0907943,
+    "seen": 1795187207.4905102,
+    "ast_hash": "18eedb8d5bfdc7d4504f2864cdaff81b",
     "semantic_hash": ""
   },
   "lib/features/properties/presentation/widgets/category_chip_bar.dart": {
@@ -3414,9 +3414,9 @@
     "semantic_hash": ""
   },
   "lib/features/rentals/presentation/pages/contract_details_page.dart": {
-    "mtime": 1795185140.4438195,
-    "seen": 1795185396.0520344,
-    "ast_hash": "c0b7f863b23a57ede7ae482faa4b3f33",
+    "mtime": 1795187110.3465128,
+    "seen": 1795187207.4905314,
+    "ast_hash": "0d7ec5a273a696d172d506818d5af99d",
     "semantic_hash": ""
   },
   "lib/features/rentals/presentation/pages/my_rentals_page.dart": {
@@ -3426,8 +3426,8 @@
     "semantic_hash": ""
   },
   "lib/features/rentals/presentation/pages/rental_apply_page.dart": {
-    "mtime": 1795185140.4438195,
-    "seen": 1795185396.0520372,
+    "mtime": 1795185488.666666,
+    "seen": 1795187207.4905353,
     "ast_hash": "b25917cd344e24cb09dfff17fbb39f70",
     "semantic_hash": ""
   },

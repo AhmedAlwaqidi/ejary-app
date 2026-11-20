@@ -47,6 +47,7 @@ const Map<String, String> arTranslations = {
   // Explore & Listings
   'search_hint': 'ابحث بالمدينة، الحي، أو اسم العقار...',
   'filter_all': 'الكل',
+  'category': 'نوع العقار',
   'cat_apartment': 'شقق',
   'cat_villa': 'فلل',
   'cat_studio': 'استوديوهات',
