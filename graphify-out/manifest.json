@@ -384,9 +384,9 @@
     "semantic_hash": ""
   },
   "analysis_options.yaml": {
-    "mtime": 1795176779.1751306,
-    "seen": 1795182459.2115717,
-    "ast_hash": "63ab52176f8ec0284cbe7b191ecac9f1",
+    "mtime": 1795185140.3674319,
+    "seen": 1795185396.0519316,
+    "ast_hash": "106c9c216a72e19a4fd5711203005ced",
     "semantic_hash": ""
   },
   "android/app/build.gradle.kts": {
@@ -450,9 +450,9 @@
     "semantic_hash": ""
   },
   "lib/main.dart": {
-    "mtime": 1795176779.380397,
-    "seen": 1795182459.2115881,
-    "ast_hash": "4c0b36d3628243699c8b3a60c9f9bf37",
+    "mtime": 1795185140.4526963,
+    "seen": 1795185396.052043,
+    "ast_hash": "923fc93b2d8055fdf31a6388b653d711",
     "semantic_hash": ""
   },
   "linux/flutter/generated_plugin_registrant.cc": {
@@ -516,9 +516,9 @@
     "semantic_hash": ""
   },
   "pubspec.yaml": {
-    "mtime": 1795176779.48544,
-    "seen": 1795182459.211606,
-    "ast_hash": "9f7847d689e17282807596e6de3312d3",
+    "mtime": 1795185140.4596806,
+    "seen": 1795185396.0520627,
+    "ast_hash": "05d9f2a4181e2250a57b145bb410533a",
     "semantic_hash": ""
   },
   "skills-lock.json": {
@@ -528,9 +528,9 @@
     "semantic_hash": ""
   },
   "test/widget_test.dart": {
-    "mtime": 1795176779.585963,
-    "seen": 1795182459.211609,
-    "ast_hash": "2a552d7760ac2596c4992956002aaad2",
+    "mtime": 1795185140.4693737,
+    "seen": 1795185396.0520778,
+    "ast_hash": "0772d7abd5c9512bafb91041815684ea",
     "semantic_hash": ""
   },
   "web/manifest.json": {
@@ -3105,6 +3105,390 @@
     "mtime": 1795176104.2315133,
     "seen": 1795182459.2122767,
     "ast_hash": "301a7604d45b3e739efc881eb04896ea",
+    "semantic_hash": ""
+  },
+  "lib/app/app.dart": {
+    "mtime": 1795185140.368873,
+    "seen": 1795185396.051955,
+    "ast_hash": "6fffeef56f2eb8795ec99990c5530561",
+    "semantic_hash": ""
+  },
+  "lib/app/bindings/initial_binding.dart": {
+    "mtime": 1795185140.368873,
+    "seen": 1795185396.051957,
+    "ast_hash": "c495f705c512db875f4626452b5a8db2",
+    "semantic_hash": ""
+  },
+  "lib/app/routes/app_pages.dart": {
+    "mtime": 1795185140.368873,
+    "seen": 1795185396.0519588,
+    "ast_hash": "5a14706f00369af6bc61493a156a7ceb",
+    "semantic_hash": ""
+  },
+  "lib/app/routes/app_routes.dart": {
+    "mtime": 1795185140.368873,
+    "seen": 1795185396.0519602,
+    "ast_hash": "86216c659cbb8aaddc53f349c4d9d278",
+    "semantic_hash": ""
+  },
+  "lib/app/translations/app_translations.dart": {
+    "mtime": 1795185140.368873,
+    "seen": 1795185396.051962,
+    "ast_hash": "cb3d4b12c62904f8b3764c04e8ba907b",
+    "semantic_hash": ""
+  },
+  "lib/app/translations/ar_translation.dart": {
+    "mtime": 1795185140.368873,
+    "seen": 1795185396.051963,
+    "ast_hash": "cfc86432105b5bf559ef776dfaf326d8",
+    "semantic_hash": ""
+  },
+  "lib/app/translations/en_translation.dart": {
+    "mtime": 1795185140.3788314,
+    "seen": 1795185396.051965,
+    "ast_hash": "ac11a3222af48995def32313546d11a4",
+    "semantic_hash": ""
+  },
+  "lib/core/constants/app_colors.dart": {
+    "mtime": 1795185140.3808393,
+    "seen": 1795185396.0519662,
+    "ast_hash": "0984466cde2219f53f6ed20307cfd775",
+    "semantic_hash": ""
+  },
+  "lib/core/constants/app_constants.dart": {
+    "mtime": 1795185140.3828495,
+    "seen": 1795185396.0519679,
+    "ast_hash": "c0784c769e2ba737a6ff42be8c9e2f11",
+    "semantic_hash": ""
+  },
+  "lib/core/constants/app_typography.dart": {
+    "mtime": 1795185140.384685,
+    "seen": 1795185396.0519693,
+    "ast_hash": "d7b1ec962478139c7fb156804897d520",
+    "semantic_hash": ""
+  },
+  "lib/core/errors/exceptions.dart": {
+    "mtime": 1795185140.38578,
+    "seen": 1795185396.0519707,
+    "ast_hash": "f1e0baa59bafc77a7f9314701df1b7c7",
+    "semantic_hash": ""
+  },
+  "lib/core/errors/failures.dart": {
+    "mtime": 1795185140.38578,
+    "seen": 1795185396.0519724,
+    "ast_hash": "d4fa7368d4fa4236dcecfa3dd1d58bbe",
+    "semantic_hash": ""
+  },
+  "lib/core/services/storage_service.dart": {
+    "mtime": 1795185140.38578,
+    "seen": 1795185396.0519738,
+    "ast_hash": "6fed5c623eecbeee31619e9b29ffa1be",
+    "semantic_hash": ""
+  },
+  "lib/core/theme/dark_theme.dart": {
+    "mtime": 1795185140.38578,
+    "seen": 1795185396.0519755,
+    "ast_hash": "5a4ba536690247c36620539c400dbd47",
+    "semantic_hash": ""
+  },
+  "lib/core/theme/light_theme.dart": {
+    "mtime": 1795185140.38578,
+    "seen": 1795185396.0519772,
+    "ast_hash": "85a4b0f78cabc9a934c6d4c9cfdc264c",
+    "semantic_hash": ""
+  },
+  "lib/core/theme/theme_controller.dart": {
+    "mtime": 1795185140.38578,
+    "seen": 1795185396.0519788,
+    "ast_hash": "704f525e9eb413a44200e226ff3b508d",
+    "semantic_hash": ""
+  },
+  "lib/core/widgets/app_button.dart": {
+    "mtime": 1795185140.38578,
+    "seen": 1795185396.0519803,
+    "ast_hash": "00f511ae594defd0d1898ac935adbe9e",
+    "semantic_hash": ""
+  },
+  "lib/core/widgets/app_text_field.dart": {
+    "mtime": 1795185140.38578,
+    "seen": 1795185396.051982,
+    "ast_hash": "329e897d10f6a68e6963494d153510dd",
+    "semantic_hash": ""
+  },
+  "lib/core/widgets/empty_state_view.dart": {
+    "mtime": 1795185140.38578,
+    "seen": 1795185396.0519836,
+    "ast_hash": "78840eb096d0d4fd743681d576c55170",
+    "semantic_hash": ""
+  },
+  "lib/core/widgets/error_state_view.dart": {
+    "mtime": 1795185140.38578,
+    "seen": 1795185396.0519848,
+    "ast_hash": "f91b33887c89f671661db0e71865d0e2",
+    "semantic_hash": ""
+  },
+  "lib/features/auth/data/repositories/auth_repository_impl.dart": {
+    "mtime": 1795185140.4020884,
+    "seen": 1795185396.0519865,
+    "ast_hash": "66b8cee7c413861e12e92e84aefc85cd",
+    "semantic_hash": ""
+  },
+  "lib/features/auth/domain/entities/user_entity.dart": {
+    "mtime": 1795185140.4030974,
+    "seen": 1795185396.051988,
+    "ast_hash": "0801490403b7877210b66c45f0c4f4e0",
+    "semantic_hash": ""
+  },
+  "lib/features/auth/domain/repositories/auth_repository.dart": {
+    "mtime": 1795185140.4030974,
+    "seen": 1795185396.0519893,
+    "ast_hash": "146198de3c8abadc9ce8befc5d0c5ddc",
+    "semantic_hash": ""
+  },
+  "lib/features/auth/presentation/controllers/auth_controller.dart": {
+    "mtime": 1795185140.4079852,
+    "seen": 1795185396.0519907,
+    "ast_hash": "0b2072907219ff428dd1a3bb35dc9463",
+    "semantic_hash": ""
+  },
+  "lib/features/auth/presentation/pages/login_page.dart": {
+    "mtime": 1795185140.4079852,
+    "seen": 1795185396.0519924,
+    "ast_hash": "7b2943db63a587bd0faa33b172389af4",
+    "semantic_hash": ""
+  },
+  "lib/features/auth/presentation/pages/register_page.dart": {
+    "mtime": 1795185140.4079852,
+    "seen": 1795185396.051994,
+    "ast_hash": "32b23744355b4de9dbd778f21d6fdff8",
+    "semantic_hash": ""
+  },
+  "lib/features/profile/presentation/controllers/profile_controller.dart": {
+    "mtime": 1795185140.4079852,
+    "seen": 1795185396.0519958,
+    "ast_hash": "0ca4f5000914f9a0a4a9789c63c064b0",
+    "semantic_hash": ""
+  },
+  "lib/features/profile/presentation/pages/profile_page.dart": {
+    "mtime": 1795185140.4079852,
+    "seen": 1795185396.051997,
+    "ast_hash": "56e74058ae86748a3e19eacd2bce3493",
+    "semantic_hash": ""
+  },
+  "lib/features/properties/data/datasources/property_mock_datasource.dart": {
+    "mtime": 1795185140.4079852,
+    "seen": 1795185396.0519986,
+    "ast_hash": "57e33434b8b95539633f94d2aa5ca630",
+    "semantic_hash": ""
+  },
+  "lib/features/properties/data/repositories/property_repository_impl.dart": {
+    "mtime": 1795185140.4079852,
+    "seen": 1795185396.0520003,
+    "ast_hash": "986af4c092b7f4a74a126eacfe99c1fe",
+    "semantic_hash": ""
+  },
+  "lib/features/properties/domain/entities/property_entity.dart": {
+    "mtime": 1795185140.4163754,
+    "seen": 1795185396.0520017,
+    "ast_hash": "fad2ac8bf2e32cfb709eb4e6f53c4893",
+    "semantic_hash": ""
+  },
+  "lib/features/properties/domain/entities/property_filter.dart": {
+    "mtime": 1795185140.4173853,
+    "seen": 1795185396.0520034,
+    "ast_hash": "58845cd8599d48269dbdca55be6082c2",
+    "semantic_hash": ""
+  },
+  "lib/features/properties/domain/repositories/property_repository.dart": {
+    "mtime": 1795185140.4188466,
+    "seen": 1795185396.052005,
+    "ast_hash": "222794a7c47936626836cd638548ccb4",
+    "semantic_hash": ""
+  },
+  "lib/features/properties/domain/usecases/property_usecases.dart": {
+    "mtime": 1795185140.4188466,
+    "seen": 1795185396.0520067,
+    "ast_hash": "3a092ec9b538e319a696568ec09483bb",
+    "semantic_hash": ""
+  },
+  "lib/features/properties/presentation/controllers/add_property_controller.dart": {
+    "mtime": 1795185140.4188466,
+    "seen": 1795185396.0520082,
+    "ast_hash": "3821d62aa40b4e15f21b51a234386e99",
+    "semantic_hash": ""
+  },
+  "lib/features/properties/presentation/controllers/explore_controller.dart": {
+    "mtime": 1795185140.424199,
+    "seen": 1795185396.0520098,
+    "ast_hash": "79c235b03eacaeafc68a9f2d28f3bcb1",
+    "semantic_hash": ""
+  },
+  "lib/features/properties/presentation/controllers/property_details_controller.dart": {
+    "mtime": 1795185140.424199,
+    "seen": 1795185396.052011,
+    "ast_hash": "75efef0a412348d0eb359a5b4d9129fe",
+    "semantic_hash": ""
+  },
+  "lib/features/properties/presentation/pages/add_property_page.dart": {
+    "mtime": 1795185140.424199,
+    "seen": 1795185396.0520124,
+    "ast_hash": "10991152a316a7b87a74c68c47ec7210",
+    "semantic_hash": ""
+  },
+  "lib/features/properties/presentation/pages/explore_page.dart": {
+    "mtime": 1795185140.424199,
+    "seen": 1795185396.0520139,
+    "ast_hash": "75ce8fa8102fb6dabceb70970effa09d",
+    "semantic_hash": ""
+  },
+  "lib/features/properties/presentation/pages/my_properties_view.dart": {
+    "mtime": 1795185140.424199,
+    "seen": 1795185396.0520153,
+    "ast_hash": "4c49e09c788bc37185256a5de0d5de7e",
+    "semantic_hash": ""
+  },
+  "lib/features/properties/presentation/pages/property_details_page.dart": {
+    "mtime": 1795185140.424199,
+    "seen": 1795185396.052017,
+    "ast_hash": "5b2bbc6cabc3f2c8ed6ad7f781d8513a",
+    "semantic_hash": ""
+  },
+  "lib/features/properties/presentation/widgets/category_chip_bar.dart": {
+    "mtime": 1795185140.424199,
+    "seen": 1795185396.0520184,
+    "ast_hash": "f694b40d34fb4894f53de56395b818b6",
+    "semantic_hash": ""
+  },
+  "lib/features/properties/presentation/widgets/property_card.dart": {
+    "mtime": 1795185140.424199,
+    "seen": 1795185396.0520203,
+    "ast_hash": "5fa6ef3c446cae88ddfb7d5682213edc",
+    "semantic_hash": ""
+  },
+  "lib/features/rentals/data/datasources/rental_mock_datasource.dart": {
+    "mtime": 1795185140.424199,
+    "seen": 1795185396.052022,
+    "ast_hash": "8316376fefd4a18696ae0d9c6bca6f9c",
+    "semantic_hash": ""
+  },
+  "lib/features/rentals/data/repositories/rental_repository_impl.dart": {
+    "mtime": 1795185140.4340153,
+    "seen": 1795185396.0520236,
+    "ast_hash": "25ceab5879d2511e8bda2d217bcd05f4",
+    "semantic_hash": ""
+  },
+  "lib/features/rentals/domain/entities/rental_application_entity.dart": {
+    "mtime": 1795185140.436272,
+    "seen": 1795185396.052025,
+    "ast_hash": "d39f322066fa6d75c9f7f7ad25adcf2f",
+    "semantic_hash": ""
+  },
+  "lib/features/rentals/domain/repositories/rental_repository.dart": {
+    "mtime": 1795185140.436272,
+    "seen": 1795185396.0520265,
+    "ast_hash": "0728f8cd88a223ab9eef2fade04053ea",
+    "semantic_hash": ""
+  },
+  "lib/features/rentals/domain/usecases/rental_usecases.dart": {
+    "mtime": 1795185140.439008,
+    "seen": 1795185396.0520284,
+    "ast_hash": "66c5ab59f0ca082f377d4ddf9b19d3b8",
+    "semantic_hash": ""
+  },
+  "lib/features/rentals/presentation/controllers/contract_details_controller.dart": {
+    "mtime": 1795185140.4407172,
+    "seen": 1795185396.0520296,
+    "ast_hash": "5d0c4ee5806499ff54a07c264b0faafe",
+    "semantic_hash": ""
+  },
+  "lib/features/rentals/presentation/controllers/my_rentals_controller.dart": {
+    "mtime": 1795185140.4412482,
+    "seen": 1795185396.0520313,
+    "ast_hash": "fb07948ba722423a4d8c892554250680",
+    "semantic_hash": ""
+  },
+  "lib/features/rentals/presentation/controllers/rental_apply_controller.dart": {
+    "mtime": 1795185140.4412482,
+    "seen": 1795185396.0520327,
+    "ast_hash": "ad2031c33af7504b9a33001b2256699c",
+    "semantic_hash": ""
+  },
+  "lib/features/rentals/presentation/pages/contract_details_page.dart": {
+    "mtime": 1795185140.4438195,
+    "seen": 1795185396.0520344,
+    "ast_hash": "c0b7f863b23a57ede7ae482faa4b3f33",
+    "semantic_hash": ""
+  },
+  "lib/features/rentals/presentation/pages/my_rentals_page.dart": {
+    "mtime": 1795185140.4438195,
+    "seen": 1795185396.0520356,
+    "ast_hash": "c9916b97f3e16a07f26941c8c810b405",
+    "semantic_hash": ""
+  },
+  "lib/features/rentals/presentation/pages/rental_apply_page.dart": {
+    "mtime": 1795185140.4438195,
+    "seen": 1795185396.0520372,
+    "ast_hash": "b25917cd344e24cb09dfff17fbb39f70",
+    "semantic_hash": ""
+  },
+  "lib/features/shell/presentation/controllers/main_controller.dart": {
+    "mtime": 1795185140.4438195,
+    "seen": 1795185396.0520384,
+    "ast_hash": "e517ea5782c856cd99c9bfff4f85b650",
+    "semantic_hash": ""
+  },
+  "lib/features/shell/presentation/pages/main_page.dart": {
+    "mtime": 1795185140.4496672,
+    "seen": 1795185396.0520396,
+    "ast_hash": "58c4efa44a3dbf5039327a7290c86177",
+    "semantic_hash": ""
+  },
+  "lib/features/splash/presentation/splash_page.dart": {
+    "mtime": 1795185140.4516804,
+    "seen": 1795185396.0520413,
+    "ast_hash": "52ce2e19361228b64021609eea19019d",
+    "semantic_hash": ""
+  },
+  "test/helpers/mock_http_client.dart": {
+    "mtime": 1795185140.4620895,
+    "seen": 1795185396.0520663,
+    "ast_hash": "b3c9fbf78ef987fcc4910be0b751ab8d",
+    "semantic_hash": ""
+  },
+  "test/helpers/mock_storage_service.dart": {
+    "mtime": 1795185140.4640973,
+    "seen": 1795185396.052068,
+    "ast_hash": "523045034cbe7b30a3a2b4e8b523fd91",
+    "semantic_hash": ""
+  },
+  "test/unit/auth_repository_test.dart": {
+    "mtime": 1795185228.68063,
+    "seen": 1795185396.0520697,
+    "ast_hash": "607558d1201bdba9f2fd21d8393a875e",
+    "semantic_hash": ""
+  },
+  "test/unit/explore_controller_test.dart": {
+    "mtime": 1795185336.1380641,
+    "seen": 1795185396.0520713,
+    "ast_hash": "d60f99096fea335b3e2786f4318755f9",
+    "semantic_hash": ""
+  },
+  "test/unit/property_repository_test.dart": {
+    "mtime": 1795185140.4663453,
+    "seen": 1795185396.0520732,
+    "ast_hash": "2f99236519495cfec0e89b65b6eacbb8",
+    "semantic_hash": ""
+  },
+  "test/unit/rental_repository_test.dart": {
+    "mtime": 1795185140.4673557,
+    "seen": 1795185396.0520747,
+    "ast_hash": "78fe2f3e0f12ebab0ef649bfce557f18",
+    "semantic_hash": ""
+  },
+  "test/unit/theme_controller_test.dart": {
+    "mtime": 1795185168.2296827,
+    "seen": 1795185396.052076,
+    "ast_hash": "89543eb872193b39789194ecd6eac48c",
     "semantic_hash": ""
   }
 }

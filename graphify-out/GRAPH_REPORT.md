@@ -1,17 +1,17 @@
 # Graph Report - ejary_app  (2026-11-20)
 
 ## Corpus Check
-- 476 files · ~288,125 words
+- 540 files · ~300,021 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 53 file(s) not represented in the graph (top: .xcconfig 8, (none) 7, .xml 7)
 
 ## Summary
-- 5066 nodes · 5693 edges · 437 communities (394 shown, 43 thin omitted)
-- Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 162 edges (avg confidence: 0.87)
+- 5765 nodes · 6633 edges · 455 communities (411 shown, 44 thin omitted)
+- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 162 edges (avg confidence: 0.87)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `46c6e24a`
+- Built from commit: `3c19c2b9`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -47,7 +47,7 @@
 - test_grader.py
 - Command File Templates (Minimal Content)
 - utils.cpp
-- win32_window.cpp
+- WindowClassRegistrar
 - Angular Patterns
 - Agent Self-Evaluation
 - json
@@ -57,7 +57,7 @@
 - Performance Optimizer
 - Review Priorities (Vue-specific only)
 - Phase 2: Cross-read, Match & Verdict (LLM Judgment)
-- ObservationEvent
+- test_grader.py
 - PRP Plan
 - code-reviewer.md
 - gan-evaluator.md
@@ -65,7 +65,7 @@
 - AI Regression Testing
 - /click-path-audit — Behavioural Flow Audit
 - grade
-- parser.py
+- initial_binding.dart
 - Plan - Multi-Model Collaborative Planning
 - HarmonyOS / ArkTS Patterns
 - React Patterns
@@ -78,7 +78,7 @@
 - Spec Miner Agent
 - Observer Agent
 - Python Code Review
-- main.dart
+- profile_controller.dart
 - pubspec.yaml
 - Common Fix Patterns
 - Campaign Workflow
@@ -99,11 +99,11 @@
 - Workflow
 - ArkTS Language Constraints
 - Architecture Decision Records
-- _compress_file_locked
+- package:get/get.dart
 - Codebase Onboarding
 - Code Health MCP (CodeScene)
 - Inherit Legacy Style
-- parse_spec
+- app_text_field.dart
 - Strategic Compact Skill
 - Kotlin TDD Command
 - Backend - Backend-Focused Development
@@ -132,7 +132,7 @@
 - C++ TDD Command
 - Evolve Command
 - Go TDD Command
-- .MessageHandler
+- FlutterWindow
 - Build Error Resolver
 - Documentation & Codemap Specialist
 - E2E Test Runner
@@ -212,7 +212,7 @@
 - Agent Output
 - How It Works
 - caveman-commit
-- file_lock
+- rental_apply_controller.dart
 - caveman-review
 - Claude Code: run the full conversational wizard
 - How It Works
@@ -251,7 +251,7 @@
 - Instinct Import Command
 - Package Manager Setup
 - Update Documentation
-- FlutterWindow
+- add_property_controller.dart
 - .MessageHandler
 - Process
 - Code Simplifier Agent
@@ -306,7 +306,7 @@
 - Vue Security
 - Web Design Quality Standards
 - Web Security Rules
-- _body_candidate_error
+- explore_controller.dart
 - Review Caveman evidence
 - Manage eval-gated experiments
 - caveman-setup/SKILL.md
@@ -330,9 +330,9 @@
 - Perl Coding Style
 - PHP Patterns
 - PHP Security
-- PHP Testing
+- common-testing.md
 - React Native / Expo Testing
-- react-testing.md
+- rental_application_entity.dart
 - Ruby Coding Style
 - Swift Coding Style
 - Swift Patterns
@@ -370,7 +370,7 @@
 - Loop Start Command
 - Model Route Command
 - Quality Gate Command
-- Test Patterns
+- storage_service.dart
 - Skill Health Dashboard
 - analysis_options.yaml
 - Common Patterns
@@ -401,8 +401,8 @@
 - TypeScript/JavaScript Hooks
 - Hook Integration for Session-Stop Self-Evaluation
 - start-observer.sh
-- Artifact Management
-- Flaky Test Patterns
+- app_colors.dart
+- app_constants.dart
 - quick-diff.sh
 - Auto Update
 - /orch-add-feature
@@ -412,8 +412,8 @@
 - /orch-refine-code
 - Prune Pending Instincts
 - review-pr.md
-- Point
-- Size
+- .Create
+- property_entity.dart
 - kotlin-hooks.md
 - session-guardian.sh
 - homunculus-dir.sh
@@ -442,14 +442,30 @@
 - hookify-list.md
 - LaunchImage.imageset/README.md
 - skill-comply
+- package:flutter/material.dart
+- auth_controller.dart
+- mock_http_client.dart
+- splash_page.dart
+- auth_repository_impl.dart
+- _FakeScenario
+- property_repository.dart
+- rental_usecases.dart
+- property_filter.dart
+- app_typography.dart
+- app_translations.dart
+- user_entity.dart
+- rental_mock_datasource.dart
+- exceptions.dart
+- failures.dart
+- windows/flutter/generated_plugin_registrant.h
 
 ## God Nodes (most connected - your core abstractions)
-1. `_make_project()` - 27 edges
-2. `Win32Window` - 27 edges
+1. `Win32Window` - 27 edges
+2. `_make_project()` - 27 edges
 3. `grade()` - 26 edges
 4. `_load_instincts_from_dir()` - 24 edges
-5. `_compress_file_locked()` - 21 edges
-6. `ObservationEvent` - 21 edges
+5. `ObservationEvent` - 21 edges
+6. `_compress_file_locked()` - 21 edges
 7. `detect_project()` - 18 edges
 8. `Continuous Learning v2.1 - Instinct` - 18 edges
 9. `Windows Desktop E2E Testing` - 18 edges
@@ -458,19 +474,19 @@
 ## Surprising Connections (you probably didn't know these)
 - `MEDIUM — Best Practices` --references--> `validate()`  [INFERRED]
   .agents/agents/django-reviewer.md → .agents/skills/caveman-compress/scripts/validate.py
-- `test_normalize_remote_url_empty_returns_empty()` --calls--> `_normalize_remote_url()`  [INFERRED]
-  .agents/skills/continuous-learning-v2/scripts/test_parse_instinct.py → .agents/skills/continuous-learning-v2/scripts/instinct-cli.py
-- `test_normalize_remote_url_file_scheme_preserves_case()` --calls--> `_normalize_remote_url()`  [INFERRED]
-  .agents/skills/continuous-learning-v2/scripts/test_parse_instinct.py → .agents/skills/continuous-learning-v2/scripts/instinct-cli.py
-- `test_normalize_remote_url_https_strips_credentials_and_scheme()` --calls--> `_normalize_remote_url()`  [INFERRED]
-  .agents/skills/continuous-learning-v2/scripts/test_parse_instinct.py → .agents/skills/continuous-learning-v2/scripts/instinct-cli.py
-- `test_normalize_remote_url_idempotent()` --calls--> `_normalize_remote_url()`  [INFERRED]
-  .agents/skills/continuous-learning-v2/scripts/test_parse_instinct.py → .agents/skills/continuous-learning-v2/scripts/instinct-cli.py
+- `MockStorageService` --inherits--> `StorageService`  [EXTRACTED]
+  test/helpers/mock_storage_service.dart → lib/core/services/storage_service.dart
+- `TestParseTrace` --uses--> `ObservationEvent`  [INFERRED]
+  .agents/skills/skill-comply/tests/test_parser.py → .agents/skills/skill-comply/scripts/parser.py
+- `TestGradeCompliant` --uses--> `ComplianceResult`  [INFERRED]
+  .agents/skills/skill-comply/tests/test_grader.py → .agents/skills/skill-comply/scripts/grader.py
+- `grade()` --uses--> `ComplianceSpec`  [INFERRED]
+  .agents/skills/skill-comply/scripts/grader.py → .agents/skills/skill-comply/scripts/parser.py
 
 ## Import Cycles
 - None detected.
 
-## Communities (437 total, 43 thin omitted)
+## Communities (455 total, 44 thin omitted)
 
 ### Community 0 - "validate.py"
 Cohesion: 0.06
@@ -497,8 +513,8 @@ Cohesion: 0.07
 Nodes (23): _append_observations(), cmd_promote(), cmd_status(), _collect_pending_dirs(), _collect_pending_instincts(), _confidence_bar(), _ensure_global_dirs(), _frontmatter_scalar() (+15 more)
 
 ### Community 6 - "runner.py"
-Cohesion: 0.09
-Nodes (11): _parse_stream_json(), run_scenario(), _safe_sandbox_dir(), ScenarioRun, _setup_sandbox(), Scenario, _FakeScenario, TestRunScenarioErrorIncludesStdoutTail (+3 more)
+Cohesion: 0.10
+Nodes (11): main(), _parse_stream_json(), run_scenario(), _safe_sandbox_dir(), ScenarioRun, _setup_sandbox(), generate_scenarios(), Scenario (+3 more)
 
 ### Community 7 - "Windows Desktop E2E Testing"
 Cohesion: 0.05
@@ -509,8 +525,8 @@ Cohesion: 0.06
 Nodes (13): Cocoa, Flutter, FlutterMacOS, Foundation, AppDelegate, SceneDelegate, RunnerTests, RegisterGeneratedPlugins() (+5 more)
 
 ### Community 9 - "compress.py"
-Cohesion: 0.10
-Nodes (15): AnthropicSdkUnavailable, call_anthropic_sdk(), call_claude(), call_claude_cli(), call_codex_cli(), call_openai_compat(), call_opencode_cli(), configured_model() (+7 more)
+Cohesion: 0.05
+Nodes (36): AnthropicSdkUnavailable, backup_dir_for(), _body_candidate_error(), build_compress_prompt(), build_fix_prompt(), call_anthropic_sdk(), call_claude(), call_claude_cli() (+28 more)
 
 ### Community 10 - "Web Performance Rules"
 Cohesion: 0.06
@@ -562,7 +578,7 @@ Nodes (22): Before / After, Benchmarks, How It Work, <img src="../../docs/assets
 
 ### Community 22 - "cli.py"
 Cohesion: 0.15
-Nodes (10): main(), backup_dir_for(), compress_file(), is_sensitive_path(), legacy_backup_dir_for(), lock_path_for(), _state_base_dir(), detect_file_type() (+2 more)
+Nodes (9): main(), compress_file(), is_sensitive_path(), detect_file_type(), _is_code_line(), is_generated(), _is_json_content(), _is_yaml_content() (+1 more)
 
 ### Community 23 - "shared.mjs"
 Cohesion: 0.13
@@ -585,8 +601,8 @@ Cohesion: 0.08
 Nodes (23): 1. Enable Observation Hooks, 2. Initialize Directory Structure, 3. Use the Instinct Commands, Backward Compatibility, Commands, Confidence Scoring, Configuration, Continuous Learning v2.1 - Instinct (+15 more)
 
 ### Community 28 - "test_grader.py"
-Cohesion: 0.12
-Nodes (8): StepResult, parse_trace(), compliant_trace(), _mock_compliant_classification(), _mock_noncompliant_classification(), noncompliant_trace(), tdd_spec(), TestParseTrace
+Cohesion: 0.21
+Nodes (5): parse_trace(), compliant_trace(), noncompliant_trace(), tdd_spec(), TestParseTrace
 
 ### Community 29 - "Command File Templates (Minimal Content)"
 Cohesion: 0.09
@@ -596,9 +612,9 @@ Nodes (22): Command File Templates (Minimal Content), ecosystem.config.cjs, Exec
 Cohesion: 0.13
 Nodes (4): wWinMain(), CreateAndAttachConsole(), GetCommandLineArguments(), Utf8FromUtf16()
 
-### Community 31 - "win32_window.cpp"
-Cohesion: 0.11
-Nodes (8): Win32Window::Destroy(), Win32Window::Show(), EnableNonClientDpiScaling, Scale(), Win32Window::Win32Window(), WindowClassRegistrar, class_registered_, instance_
+### Community 31 - "WindowClassRegistrar"
+Cohesion: 0.25
+Nodes (3): WindowClassRegistrar, class_registered_, instance_
 
 ### Community 32 - "Angular Patterns"
 Cohesion: 0.09
@@ -609,8 +625,8 @@ Cohesion: 0.09
 Nodes (21): Agent Self-Evaluation, Anti-Patterns, Best Practices, Code Examples, Core Concepts, "Everything is a 5", Example: Good Evaluation (Score 4+), Example: Weak Evaluation (Score 2-3) (+13 more)
 
 ### Community 34 - "json"
-Cohesion: 0.13
-Nodes (8): _is_code_line(), _is_json_content(), _is_yaml_content(), check_disk(), check_stale_libs(), count_edits(), get_project_memory_dir(), main()
+Cohesion: 0.23
+Nodes (5): check_disk(), check_stale_libs(), count_edits(), get_project_memory_dir(), main()
 
 ### Community 35 - "Rules"
 Cohesion: 0.09
@@ -636,9 +652,9 @@ Nodes (20): Approval Criteria, CRITICAL — Reactivity, CRITICAL — Vue Securit
 Cohesion: 0.10
 Nodes (20): 1a. Collect skill inventory, 1b. Collect rules index, 1c. Present to user, Batching, Cross-batch Merge, Design Principles, End-to-end run, Example (+12 more)
 
-### Community 41 - "ObservationEvent"
-Cohesion: 0.21
-Nodes (10): classify_events(), _parse_classification(), _check_temporal_order(), ComplianceResult, ComplianceSpec, ObservationEvent, generate_report(), _overall_compliance() (+2 more)
+### Community 41 - "test_grader.py"
+Cohesion: 0.10
+Nodes (18): classify_events(), _parse_classification(), _check_temporal_order(), ComplianceResult, StepResult, ComplianceSpec, Detector, ObservationEvent (+10 more)
 
 ### Community 42 - "PRP Plan"
 Cohesion: 0.10
@@ -668,9 +684,9 @@ Nodes (19): /click-path-audit — Behavioural Flow Audit, Example: The Bug That 
 Cohesion: 0.22
 Nodes (3): grade(), TestGradeCompliant, TestGradeNoncompliant
 
-### Community 49 - "parser.py"
-Cohesion: 0.17
-Nodes (4): main(), generate_scenarios(), generate_spec(), extract_yaml()
+### Community 49 - "initial_binding.dart"
+Cohesion: 0.05
+Nodes (23): dependencies, InitialBinding, AppPages, initial, pages, ThemeController, AuthController, ProfileController (+15 more)
 
 ### Community 50 - "Plan - Multi-Model Collaborative Planning"
 Cohesion: 0.10
@@ -720,13 +736,13 @@ Nodes (17): 1. User Corrections, 2. Error Resolutions, 3. Repeated Workflows, 4.
 Cohesion: 0.11
 Nodes (17): Automated Checks Run, CRITICAL (Must Fix), Example Usage, Fix Mutable Defaults, Fix String Concatenation in Loops, Formatting Required, HIGH (Should Fix), MEDIUM (Consider) (+9 more)
 
-### Community 62 - "main.dart"
-Cohesion: 0.12
-Nodes (10): build, _counter, createState, _incrementCounter, main, MyApp, MyHomePage, _MyHomePageState (+2 more)
+### Community 62 - "profile_controller.dart"
+Cohesion: 0.06
+Nodes (28): StorageService, authController, currentLanguage, logout, onInit, storageService, switchLanguage, switchRole (+20 more)
 
 ### Community 63 - "pubspec.yaml"
 Cohesion: 0.11
-Nodes (17): dependencies, cupertino_icons, flutter, material_ui, description, dev_dependencies, flutter_lints, flutter_test (+9 more)
+Nodes (18): dependencies, cupertino_icons, flutter, get, get_storage, description, dev_dependencies, flutter_lints (+10 more)
 
 ### Community 64 - "Common Fix Patterns"
 Cohesion: 0.12
@@ -804,9 +820,9 @@ Nodes (15): ArkTS Language Constraints, Comments, Destructuring & Spread, Error 
 Cohesion: 0.12
 Nodes (15): ADR Directory Structure, ADR Format, ADR Index Format, ADR Lifecycle, Architecture Decision Records, Capturing a New ADR, Categories of Decisions Worth Recording, Decision Detection Signals (+7 more)
 
-### Community 83 - "_compress_file_locked"
-Cohesion: 0.12
-Nodes (9): build_compress_prompt(), build_fix_prompt(), _compress_file_locked(), find_credential(), _is_smaller_than_body(), mask_code_blocks(), read_source(), restore_code_blocks() (+1 more)
+### Community 83 - "package:get/get.dart"
+Cohesion: 0.06
+Nodes (28): _authController, build, createState, dispose, _emailController, _formKey, _onLogin, _passwordController (+20 more)
 
 ### Community 84 - "Codebase Onboarding"
 Cohesion: 0.12
@@ -820,9 +836,9 @@ Nodes (15): 1. Connect the MCP server, 2. Call standalone tools only, 3. Interpr
 Cohesion: 0.12
 Nodes (15): Anti-Patterns, Best Practices, Branch A — First-time Full-Scan, Branch B — Incremental Sniff, Examples, How It Works, Inherit Legacy Style, Output Specification (+7 more)
 
-### Community 87 - "parse_spec"
-Cohesion: 0.23
-Nodes (5): Detector, parse_spec(), Step, TestGradeEdgeCases, TestParseSpec
+### Community 87 - "app_text_field.dart"
+Cohesion: 0.05
+Nodes (35): EjaryApp, AppButton, backgroundColor, build, _buildContent, icon, isLoading, isOutlined (+27 more)
 
 ### Community 88 - "Strategic Compact Skill"
 Cohesion: 0.12
@@ -936,6 +952,10 @@ Nodes (14): Agent, → Agent (Needs Depth/Isolation), Command, → Command (User
 Cohesion: 0.13
 Nodes (14): Coverage Commands, Coverage Targets, Example Session, Go TDD Command, Parallel Tests, Related, Related Commands, Table-Driven Tests (+6 more)
 
+### Community 116 - "FlutterWindow"
+Cohesion: 0.11
+Nodes (6): FlutterWindow::OnDestroy(), FlutterWindow, flutter_controller_, FlutterWindow::FlutterWindow(), project_, Win32Window::OnDestroy()
+
 ### Community 117 - "Build Error Resolver"
 Cohesion: 0.14
 Nodes (13): 1. Collect All Errors, 2. Fix Strategy (MINIMAL CHANGES), 3. Common Fixes, Build Error Resolver, Core Responsibilities, Diagnostic Commands, DO and DON'T, Priority Levels (+5 more)
@@ -1009,8 +1029,8 @@ Cohesion: 0.14
 Nodes (13): Approval Criteria, Automated Checks Run, CRITICAL (Must Fix), Example Usage, HIGH (Should Fix), Integration with Other Commands, MEDIUM (Consider), Related (+5 more)
 
 ### Community 135 - "Win32Window"
-Cohesion: 0.18
-Nodes (7): FlutterWindow::OnCreate(), Win32Window::GetClientArea(), Win32Window::OnCreate(), Win32Window, child_content_, quit_on_close_, window_handle_
+Cohesion: 0.16
+Nodes (8): FlutterWindow::OnCreate(), Win32Window::Destroy(), Win32Window::GetClientArea(), Win32Window::OnCreate(), Win32Window, child_content_, quit_on_close_, window_handle_
 
 ### Community 136 - "Database Reviewer"
 Cohesion: 0.15
@@ -1252,9 +1272,9 @@ Nodes (10): Browser QA — Automated Visual Testing & Interaction, How It Works,
 Cohesion: 0.18
 Nodes (9): caveman-commit, Example output, How to invoke, See also, What it does, Auto-Clarity, Boundaries, Examples (+1 more)
 
-### Community 196 - "file_lock"
-Cohesion: 0.18
-Nodes (4): file_lock(), LockTimeoutError, _try_lock_nonblocking(), _unlock()
+### Community 196 - "rental_apply_controller.dart"
+Cohesion: 0.05
+Nodes (35): RentalMockDataSource, dataSource, getApplications, getContractById, getMyContracts, payInstallment, RentalRepositoryImpl, submitApplication (+27 more)
 
 ### Community 197 - "caveman-review"
 Cohesion: 0.18
@@ -1301,8 +1321,8 @@ Cohesion: 0.18
 Nodes (10): Common Errors Fixed, Diagnostic Commands Run, Example Session, Fix Strategy, Kotlin Build and Fix, Related, Related Commands, Stop Conditions (+2 more)
 
 ### Community 208 - "React TDD Command"
-Cohesion: 0.18
-Nodes (11): Anti-Patterns to Avoid, Coverage Targets, Example Session, React TDD Command, Related, Related Commands, Runner Detection, TDD Cycle (+3 more)
+Cohesion: 0.12
+Nodes (17): Accessibility, Anti-Patterns to Avoid, Behavior, not implementation, Coverage Targets, Custom hooks, Example Session, MSW for network, React TDD Command (+9 more)
 
 ### Community 209 - "Rust Build and Fix"
 Cohesion: 0.18
@@ -1408,9 +1428,13 @@ Nodes (9): Configuration Files, Detection Priority, Environment Variable, Global
 Cohesion: 0.20
 Nodes (9): Rules, Step 1: Identify Sources of Truth, Step 2: Generate Script Reference, Step 3: Generate Environment Documentation, Step 4: Update Contributing Guide, Step 5: Update Runbook, Step 6: Staleness Check, Step 7: Show Summary (+1 more)
 
-### Community 235 - "FlutterWindow"
-Cohesion: 0.20
-Nodes (5): FlutterWindow::OnDestroy(), FlutterWindow, flutter_controller_, project_, Win32Window::OnDestroy()
+### Community 235 - "add_property_controller.dart"
+Cohesion: 0.05
+Nodes (35): PropertyRepositoryImpl, PropertyRepository, areaController, _authController, bathroomsController, bedroomsController, cityController, descriptionArController (+27 more)
+
+### Community 236 - ".MessageHandler"
+Cohesion: 0.19
+Nodes (5): Win32Window::GetHandle(), Win32Window::Show(), EnableFullDpiSupportIfAvailable(), EnableNonClientDpiScaling, Win32Window::Win32Window()
 
 ### Community 237 - "Process"
 Cohesion: 0.22
@@ -1449,7 +1473,7 @@ Cohesion: 0.22
 Nodes (8): Agent Support, Angular Security, Content Security Policy, HTTP Security, Route Guards, Secret Management, SSR Security, XSS Prevention
 
 ### Community 246 - "common-coding-style.md"
-Cohesion: 0.25
+Cohesion: 0.33
 Nodes (5): Design Principles, Error Handling, Formatting, Go Coding Style, Reference
 
 ### Community 247 - "F# Coding Style"
@@ -1485,8 +1509,8 @@ Cohesion: 0.22
 Nodes (4): _validate_import_url(), test_validate_import_url_allows_public_https(), test_validate_import_url_rejects_http(), test_validate_import_url_rejects_private_hosts()
 
 ### Community 255 - "E2E Testing Patterns"
-Cohesion: 0.22
-Nodes (9): CI/CD Integration, E2E Testing Patterns, Financial / Critical Flow Testing, Page Object Model (POM), Playwright Configuration, Test File Organization, Test Report Template, Test Structure (+1 more)
+Cohesion: 0.12
+Nodes (17): Artifact Management, CI/CD Integration, Common Causes & Fixes, E2E Testing Patterns, Financial / Critical Flow Testing, Flaky Test Patterns, Identify Flakiness, Page Object Model (POM) (+9 more)
 
 ### Community 256 - "Plan Canvas"
 Cohesion: 0.22
@@ -1525,7 +1549,7 @@ Cohesion: 0.22
 Nodes (8): Codemap Format, Step 1: Scan Project Structure, Step 2: Generate Codemaps, Step 3: Diff Detection, Step 4: Add Metadata, Step 5: Save Analysis Report, Tips, Update Codemaps
 
 ### Community 265 - "common-testing.md"
-Cohesion: 0.25
+Cohesion: 0.33
 Nodes (5): ASP.NET Core Integration Tests, C# Testing, Coverage, Test Framework, Test Organization
 
 ### Community 266 - "common-patterns.md"
@@ -1624,9 +1648,9 @@ Nodes (7): Anti-Template Policy, Banned Patterns, Before Writing Frontend Code, 
 Cohesion: 0.25
 Nodes (7): Content Security Policy, Forms, HTTPS and Headers, Nonce-Based CSP, Third-Party Scripts, Web Security Rules, XSS Prevention
 
-### Community 290 - "_body_candidate_error"
-Cohesion: 0.25
-Nodes (4): _body_candidate_error(), first_nonblank_line(), _frontmatter_block_count(), _thematic_break_count()
+### Community 290 - "explore_controller.dart"
+Cohesion: 0.05
+Nodes (33): add, getAll, getById, _properties, PropertyMockDataSource, query, toggleAvailability, addProperty (+25 more)
 
 ### Community 291 - "Review Caveman evidence"
 Cohesion: 0.25
@@ -1720,17 +1744,17 @@ Nodes (6): Boundaries, Dependency Injection, DTOs and Value Objects, PHP Pattern
 Cohesion: 0.29
 Nodes (6): Auth and Session Safety, Database Safety, Input and Output, PHP Security, Reference, Secrets and Dependencies
 
-### Community 314 - "PHP Testing"
-Cohesion: 0.29
-Nodes (6): Coverage, Framework, Inertia, PHP Testing, Reference, Test Organization
+### Community 314 - "common-testing.md"
+Cohesion: 0.13
+Nodes (9): Coverage, Framework, Inertia, PHP Testing, Reference, Test Organization, Agent Support, E2E Testing (+1 more)
 
 ### Community 315 - "React Native / Expo Testing"
 Cohesion: 0.29
 Nodes (6): Component Tests, E2E, Mocking, React Native / Expo Testing, Tooling, What to test first
 
-### Community 316 - "react-testing.md"
-Cohesion: 0.29
-Nodes (3): Agent Support, E2E Testing, TypeScript/JavaScript Testing
+### Community 316 - "rental_application_entity.dart"
+Cohesion: 0.06
+Nodes (32): amount, annualRent, contractNumber, copyWith, createdAt, dueDate, durationMonths, endDate (+24 more)
 
 ### Community 317 - "Ruby Coding Style"
 Cohesion: 0.29
@@ -1825,7 +1849,7 @@ Cohesion: 0.33
 Nodes (5): Coverage, Framework, Go Testing, Race Detection, Reference
 
 ### Community 340 - "Python Coding Style"
-Cohesion: 0.33
+Cohesion: 0.25
 Nodes (5): Formatting, Immutability, Python Coding Style, Reference, Standards
 
 ### Community 341 - "Python Patterns"
@@ -1880,17 +1904,17 @@ Nodes (5): Arguments, Model Route Command, Required Output, Routing Heuristic, U
 Cohesion: 0.33
 Nodes (5): Arguments, How it actually works, Notes, Quality Gate Command, Usage
 
-### Community 354 - "Test Patterns"
-Cohesion: 0.33
-Nodes (6): Accessibility, Behavior, not implementation, Custom hooks, MSW for network, Test Patterns, `userEvent.setup()` per test
+### Community 354 - "storage_service.dart"
+Cohesion: 0.06
+Nodes (15): build, _box, erase, getLanguage, getThemeMode, getUserRole, init, remove (+7 more)
 
 ### Community 355 - "Skill Health Dashboard"
 Cohesion: 0.33
 Nodes (5): Implementation, Panels, Skill Health Dashboard, Usage, What to Do
 
 ### Community 356 - "analysis_options.yaml"
-Cohesion: 0.33
-Nodes (5): analyzer, exclude, include, linter, rules
+Cohesion: 0.25
+Nodes (7): analyzer, errors, exclude, deprecated_member_use, include, linter, rules
 
 ### Community 357 - "Common Patterns"
 Cohesion: 0.40
@@ -2000,13 +2024,13 @@ Nodes (3): Hook Integration for Session-Stop Self-Evaluation, Integration with t
 Cohesion: 0.83
 Nodes (3): start-observer.sh script, stop_observer_if_running(), write_guard_sentinel()
 
-### Community 385 - "Artifact Management"
-Cohesion: 0.50
-Nodes (4): Artifact Management, Screenshots, Traces, Video
+### Community 385 - "app_colors.dart"
+Cohesion: 0.06
+Nodes (29): apartment, AppColors, backgroundDark, backgroundLight, borderDark, borderLight, cardDark, cardLight (+21 more)
 
-### Community 386 - "Flaky Test Patterns"
-Cohesion: 0.50
-Nodes (4): Common Causes & Fixes, Flaky Test Patterns, Identify Flakiness, Quarantine
+### Community 386 - "app_constants.dart"
+Cohesion: 0.07
+Nodes (25): addProperty, AppRoutes, contractDetails, login, main, propertyDetails, register, rentalApply (+17 more)
 
 ### Community 388 - "Auto Update"
 Cohesion: 0.50
@@ -2040,33 +2064,93 @@ Nodes (3): Implementation, Prune Pending Instincts, Usage
 Cohesion: 0.50
 Nodes (3): Confidence Rule, Steps, Usage
 
-### Community 396 - "Point"
-Cohesion: 0.50
-Nodes (3): Point, x, y
+### Community 396 - ".Create"
+Cohesion: 0.17
+Nodes (7): Scale(), Point, x, y, Size, height, width
 
-### Community 397 - "Size"
-Cohesion: 0.50
-Nodes (3): Size, height, width
+### Community 397 - "property_entity.dart"
+Cohesion: 0.08
+Nodes (24): amenities, areaM2, bathrooms, bedrooms, category, city, descriptionAr, descriptionEn (+16 more)
+
+### Community 437 - "package:flutter/material.dart"
+Cohesion: 0.09
+Nodes (9): buildDarkTheme, buildLightTheme, build, build, categories, CategoryChipBar, onSelected, selectedCategory (+1 more)
+
+### Community 438 - "auth_controller.dart"
+Cohesion: 0.08
+Nodes (18): isDarkMode, onInit, setTheme, _storageService, _themeMode, toggleTheme, _authRepository, continueAsGuest (+10 more)
+
+### Community 439 - "mock_http_client.dart"
+Cohesion: 0.09
+Nodes (13): client, compressionState, contentLength, createHttpClient, _createMockHttpClient, _MockHttpClient, _MockHttpClientRequest, _MockHttpClientResponse (+5 more)
+
+### Community 440 - "splash_page.dart"
+Cohesion: 0.12
+Nodes (14): LoginPage, _LoginPageState, RegisterPage, _RegisterPageState, MyPropertiesView, _MyPropertiesViewState, build, _controller (+6 more)
+
+### Community 441 - "auth_repository_impl.dart"
+Cohesion: 0.10
+Nodes (15): AuthRepositoryImpl, _currentUser, getCurrentUser, _initUser, login, logout, register, _storageService (+7 more)
+
+### Community 442 - "_FakeScenario"
+Cohesion: 0.15
+Nodes (4): _FakeScenario, TestRunScenarioMaxTurnsTermination, TestSetupSandboxSkipsShellBuiltins, fake_run()
+
+### Community 443 - "property_repository.dart"
+Cohesion: 0.13
+Nodes (11): addProperty, getFeaturedProperties, getLandlordProperties, getProperties, getPropertyById, toggleAvailability, AddPropertyUseCase, execute (+3 more)
+
+### Community 444 - "rental_usecases.dart"
+Cohesion: 0.14
+Nodes (10): getApplications, getContractById, getMyContracts, payInstallment, submitApplication, execute, GetMyContractsUseCase, PayInstallmentUseCase (+2 more)
+
+### Community 445 - "property_filter.dart"
+Cohesion: 0.17
+Nodes (9): category, city, copyWith, isEmpty, maxPrice, minBedrooms, minPrice, PropertyFilter (+1 more)
+
+### Community 446 - "app_typography.dart"
+Cohesion: 0.17
+Nodes (10): AppTypography, bodyLarge, bodyMedium, bodySmall, displayLarge, displayMedium, labelLarge, labelSmall (+2 more)
+
+### Community 447 - "app_translations.dart"
+Cohesion: 0.18
+Nodes (4): AppTranslations, keys, arTranslations, enTranslations
+
+### Community 448 - "user_entity.dart"
+Cohesion: 0.18
+Nodes (9): email, id, isLandlord, isTenant, name, nationalId, phone, role (+1 more)
+
+### Community 449 - "rental_mock_datasource.dart"
+Cohesion: 0.20
+Nodes (8): addApplication, _applications, _contracts, _generateInstallments, getApplications, getContractById, getContracts, payInstallment
+
+### Community 450 - "exceptions.dart"
+Cohesion: 0.36
+Nodes (6): CacheException, message, NotFoundException, ServerException, toString, ValidationException
+
+### Community 451 - "failures.dart"
+Cohesion: 0.39
+Nodes (7): CacheFailure, Failure, message, NotFoundFailure, ServerFailure, toString, ValidationFailure
 
 ## Knowledge Gaps
-- **26 isolated node(s):** `CLV2_PYTHON_CMD`, `PROJECT_ID_ENV`, `PROJECT_NAME_ENV`, `TIMESTAMP`, `skill-comply` (+21 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 3619 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **43 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **443 isolated node(s):** `build`, `dependencies`, `AppPages`, `initial`, `pages` (+438 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 4136 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **44 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `classify_events()` connect `ObservationEvent` to `grade`, `runner.py`?**
-  _High betweenness centrality (0.001) - this node is a cross-community bridge._
-- **Are the 2 inferred relationships involving `grade()` (e.g. with `ComplianceSpec` and `ObservationEvent`) actually correct?**
-  _`grade()` has 2 INFERRED edges - model-reasoned connections that need verification._
-- **What connects `CLV2_PYTHON_CMD`, `PROJECT_ID_ENV`, `PROJECT_NAME_ENV` to the rest of the system?**
-  _26 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `PropertyRepository` connect `add_property_controller.dart` to `initial_binding.dart`, `explore_controller.dart`, `property_repository.dart`?**
+  _High betweenness centrality (0.004) - this node is a cross-community bridge._
+- **What connects `build`, `dependencies`, `AppPages` to the rest of the system?**
+  _443 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `validate.py` be split into smaller, more focused modules?**
   _Cohesion score 0.05580693815987934 - nodes in this community are weakly interconnected._
-- **Are the 9 inferred relationships involving `_load_instincts_from_dir()` (e.g. with `test_load_annotates_metadata()` and `test_load_defaults_scope_from_label()`) actually correct?**
-  _`_load_instincts_from_dir()` has 9 INFERRED edges - model-reasoned connections that need verification._
+- **Why does `RentalRepository` connect `rental_apply_controller.dart` to `initial_binding.dart`, `rental_usecases.dart`?**
+  _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **Should `test_parse_instinct.py` be split into smaller, more focused modules?**
   _Cohesion score 0.06274509803921569 - nodes in this community are weakly interconnected._
+- **Why does `test_detect_project_from_env()` connect `detect_project` to `test_parse_instinct.py`?**
+  _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **Should `Git Workflow Patterns` be split into smaller, more focused modules?**
   _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
