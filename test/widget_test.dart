@@ -1,30 +1,38 @@
-// This is a basic Flutter widget test.
-//
-// To perform an interaction with a widget in your test, use the WidgetTester
-// utility in the flutter_test package. For example, you can send tap and scroll
-// gestures. You can also use WidgetTester to find child widgets in the widget
-// tree, read text, and verify that the values of widget properties are correct.
-
+import 'dart:io';
+import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:material_ui/material_ui.dart';
-
-import 'package:ejary_app/main.dart';
+import 'package:get/get.dart';
+import 'package:ejary_app/app/app.dart';
+import 'package:ejary_app/core/services/storage_service.dart';
+import 'package:ejary_app/app/bindings/initial_binding.dart';
+import 'helpers/mock_storage_service.dart';
+import 'helpers/mock_http_client.dart';
 
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
-    await tester.pumpWidget(const MyApp());
+  setUp(() async {
+    HttpOverrides.global = MockHttpOverrides();
+    Get.reset();
+    final mockStorage = MockStorageService();
+    Get.put<StorageService>(mockStorage, permanent: true);
+    InitialBinding().dependencies();
+  });
 
-    // Verify that our counter starts at 0.
-    expect(find.text('0'), findsOneWidget);
-    expect(find.text('1'), findsNothing);
+  tearDown(() {
+    Get.reset();
+  });
 
-    // Tap the '+' icon and trigger a frame.
-    await tester.tap(find.byIcon(Icons.add));
-    await tester.pump();
+  testWidgets('EjaryApp launches and displays Splash branding', (WidgetTester tester) async {
+    await tester.pumpWidget(const EjaryApp());
 
-    // Verify that our counter has incremented.
-    expect(find.text('0'), findsNothing);
-    expect(find.text('1'), findsOneWidget);
+    // Verify app icon & name exists on splash screen
+    expect(find.byIcon(Icons.home_work_rounded), findsOneWidget);
+    expect(find.text('إيجاري'), findsOneWidget);
+
+    // Pump timer and advance past splash screen
+    await tester.pump(const Duration(milliseconds: 1500));
+    await tester.pump(const Duration(milliseconds: 500));
+
+    // Verify Main navigation shell loaded
+    expect(find.byType(BottomNavigationBar), findsOneWidget);
   });
 }
